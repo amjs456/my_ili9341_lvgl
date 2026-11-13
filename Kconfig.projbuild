@@ -1,0 +1,49 @@
+menu "ILI9341 SPI configuration"
+    config ILI9341_SPI_SCK_GPIO
+    int "ILI9341 SPI SCK GPIO"
+    default 14
+
+    config ILI9341_SPI_MOSI_GPIO
+    int "ILI9341 SPI MOSI GPIO"
+    default 15
+
+    config ILI9341_SPI_MISO_GPIO
+    int "ILI9341 SPI MISO GPIO"
+    default 16
+
+    config ILI9341_SPI_CS_GPIO
+    int "ILI9341 SPI CS GPIO"
+    default 10
+
+    config ILI9341_SPI_DC_GPIO
+    int "ILI9341 SPI DC GPIO"
+    default 9
+
+    config ILI9341_SPI_RST_GPIO
+    int "ILI9341 SPI RST GPIO"
+    default 8
+
+    config ILI9341_SPI_LED_GPIO
+    int "ILI9341 SPI LED GPIO"
+    default 17
+
+    config ILI9341_TOUCH_IRQ
+    int "ILI9341 TOUCH IRQ"
+    default 35
+
+    config ILI9341_TOUCH_DO
+    int "ILI9341 TOUCH DO"
+    default 45
+
+    config ILI9341_TOUCH_DIN
+    int "ILI9341 TOUCH DIN"
+    default 48
+
+    config ILI9341_TOUCH_CS
+    int "ILI9341 TOUCH CS"
+    default 47
+
+    config ILI9341_TOUCH_CLK
+    int "ILI9341 TOUCH CLK"
+    default 21
+endmenu

@@ -1,0 +1,6 @@
+CompileFlags:
+  CompilationDatabase: examples/basic/build
+  Remove: [-fno-shrink-wrap, -fstrict-volatile-bitfields, -fno-tree-switch-conversion, -fzero-init-padding-bits=all, -fno-malloc-dce]
+
+Index:
+  Background: Build
